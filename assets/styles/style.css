@@ -1,0 +1,93 @@
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;
+  background-color: rgb(184, 183, 183);
+  border-radius: 40px;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+#titulo {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.nuevaTarea {
+  margin-left: 45px;
+  margin-bottom: px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+#inputTarea {
+  width: 80%;
+  height: 30px;
+}
+
+#btnAgregar {
+  height: 35px;
+  width: 90px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+#box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  margin-right: 50px;
+}
+
+
+#resumen {
+  display: flex;
+  text-align: center;
+}
+
+#lista1{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#lista2 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
